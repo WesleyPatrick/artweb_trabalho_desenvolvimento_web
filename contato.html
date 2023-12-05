@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <!--METADADOS NECESSÁRIOS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transformar e ampliar a visão de visitantes e de residentes do município de Rio do Sul, em como melhor
+                                        aproveitar os benefícios relacionados à História, Arte e Cultura Municipal">
+    <meta name="author" content="Gabriel Steffens, Wesley Patrick Ochakowski e Paulo Vitor Ricken Antunes">
+    
+    <!--TÍTULO-->
+    <title>
+        Contato - Art Web Rio do sul
+
+    </title>
+
+    <!--LINKS-->
+    <link rel="shortcut icon" href="/assets/imgs/logo 1.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/css/contato.css">
+    
+    <!--ICONES-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+        <!--=============== HEADER ===============-->
+        <header class="header">
+            <nav class="nav container">
+                <div class="nav__data">
+                
+                    <a href="index.html" class="nav__logo">
+                        <img id="nav__logo" src="/assets/imgs/logo2.png" alt="Logo Grupo Artweb">
+                    </a>
+    
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line nav__burger"></i>
+                        <i class="ri-close-line nav__close"></i>
+                    </div>
+                </div>
+            <!--=============== MENU ===============-->  
+    
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+    
+                   <!--=============== MENUITEM 1 ===============-->
+                   <li><a class="nav__link" href="sobre.html">Sobre Nós</a></li>
+    
+                   <!--=============== MENUITEM 2 ===============-->
+                   <li><a class="nav__link" href="historia.html">História</a></li>
+    
+    
+                   <!--=============== MENUITEM 3 ===============-->
+                   <li><a class="nav__link" href="arte_cultura.html">Arte e Cultura</a></li>
+                    
+    
+                   <!--=============== MENUITEM 4 ===============-->                
+                   <li><a class="nav__link" href="contato.html">Contato</a></li>
+    
+            </nav>
+    
+        </header>
+
+        <section class="contato__section1"  id="contato__section1">
+            <div class="contato__section1__text">    
+                <i class="ri-contacts-book-line contato__section1__text__icon"></i>
+                <h1>Contato</h1>
+                <p class="contato__section1__p">Caso deseje prestar um feedback, uma avaliação, <br> ou até sugestões de conteúdo, fique a vontade! Insira seus dados abaixo:</p>
+                
+            </div>
+        </section>
+
+        <section class="contato">
+            <h2>Entre em contato</h2>
+            <form action="enviar.php" method="post">
+              <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
+              </div>
+              <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" required>
+              </div>
+              <div class="campo">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" required></textarea>
+              </div>
+              <div class="campo">
+                <label for="questao">Responda: 10 + 2?</label>
+                <input type="number" name="questao" id="questao" required>
+              </div>
+              <input type="submit" value="Enviar mensagem">
+            </form>
+            <p>Ao enviar seus dados você concorda com a nossa Política de Privacidade e aceita receber conteúdo relacionado os produtos e serviços da Art Web e seus parceiros.</p>
+          </section> 
+
+          <div class="detalhe-linha"></div>
+
+          <footer>
+            <div class="footer">
+                <div class="footer_content">
+                    <a class="footer_content__logo" href=""><img src="/assets/imgs/logo2.png" alt="Logo Artweb"></a>
+                    <div class="footer-endereco">   
+                        <div class="footer-endereco__text">
+                        <i class="ri-map-pin-fill footer-endereco__pin"></i>
+                        Rio do Sul - SC
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#section-1">Início</a></li>
+                        <li><a href="#section-3">Menu</a></li>
+                        <li><a href="sobre.html">Conheça mais sobre nós</a></li>
+                    </ul>
+                </div>
+    
+                    <div class="right-footer-side">
+    
+                        <div class="input_group_footer">
+                            <p>Digite seu e-mail para receber novidades</p>
+                            <div id="input_group">  
+                                <input type="email" id="email">
+                                <button>
+                                    <i class="ri-mail-line"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            
+            <div class="detalhe-linha"></div>
+    
+            <div id="footer_copyright">
+                &#169
+                2024 Todos direitos reservados - Art Web <br>
+                Desenvolvido por: Gabriel Steffens, Wesley Patrick Ochakowski e Paulo Vitor Ricken Antunes
+    
+            </div>
+    
+    
+        </footer>
+
+</body>
